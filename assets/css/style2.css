@@ -8,30 +8,28 @@ body {
     width: 100%;
 }
 
-
+.header-links {
+    position: relative;
+    background: white;
+    padding: 45px;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    border-bottom: 5px solid #cccccc;
+}
 
 .my-name {
     float: left;
     position: absolute;
     left: 236px;
     top: 14px;
-    font-family: Georgia;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 36px;
     text-align: left;
     background: #4aaaa5;
     color: white;
     padding: 20px;
     width: 300px;
-}
-
-.header-links {
-    position: relative;
-    padding: 45px;
-    background: white;
-    color: #777777;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: right;
-    border-bottom: 5px solid #cccccc;
 }
 
 .contact {
@@ -64,21 +62,17 @@ body {
     float: right;
 }
 
-p {
-    color:#777777;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-left: 0px;
-}
 h2 {
-    text-align: left;
     color: #4aaaa5;
+    text-align: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     margin-bottom: 25px;
 }
 
-.main-content {
+
+
+.fill-in {
     clear: both;
     float: left;
     width: 650px;
@@ -88,18 +82,18 @@ h2 {
     left: 236px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 20px;
     color: #777777;
     background-color: #ffffff;
     word-wrap: break-word;
 }
 
-.img-phil {
-    margin-bottom: 10px;
-    margin-right: 20px;
-    padding-top: 15px;
-
+.connect-with {
+    text-decoration: none;
+    color: #4aaaa5;
+    text-align: center;
+    font-size: 22px;
+    line-height: 25px;
 }
 
 .aside {
@@ -114,10 +108,10 @@ h2 {
     font-size: 22px;
     line-height: 25px;
     width: 270px;
-    background-color: #ffffff;
+    background-color: #ffffff
 }
 
-.footer {
+footer {
     clear: both;
     position: absolute;
     right: 0;
@@ -127,5 +121,4 @@ h2 {
     border-top: 8px solid #4aaaa5;
     padding: 20px;
     text-align: center;
-    
 }

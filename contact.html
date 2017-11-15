@@ -1,25 +1,24 @@
 <!DOCTYPE html>
-
 <head>
-    <html lang="en"></html>
     <meta charset="UTF-8">
     <title>Phil D Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+
 </head>
+
 <body>
-    <div class="container-2">
-    
-    <div class="my-name">
-        <H1>Phil Dominguez</H1>
+    <div class="header-links">
+        <div class="contact"><a style="text-decoration:none; color: #777777;" href="#">Contact</a></div>
+        <div class="portfolio"><a style="text-decoration:none; color:#777777;" href="#">Portfolio</a></div>
+        <div class="about"><a style="text-decoration:none; color: #777777" href="#">About</a></div>
     </div>
 
-    <div class="contact-links">
-        <p><lighter>About</lighter></p>
-        <p><lighter>Portfolio</lighter></p>
-        <p><lighter>Contact</lighter></p>
-        <p><strong>Connect With Me</strong></p>
-    </div>
+    <h1 class="my-name" >Phil Dominguez</h1>
 
     <div class="fill-in">
+        <h2>Contact</h2>
+        <hr class="hr1">
         <form action="/my-handling-form-page" method="post">
             <div>
                 <label for="name">Name:</label>
@@ -33,16 +32,21 @@
                 <label for="msg">Message:</label>
                 <textarea id="msg" name="user_message"></textarea>
             </div>
+            <div class="button">
+                <button type="submit">Send</button>
+            </div>
         </form>
     </div>
         
-        <div class="button">
-            <button type="submit">Send</button>
-        </div>
+    <div class="aside">
+        <a class="connect-with" href="#">Connect With Me</a>
+        <hr>
+        <img src="assets/images/stackoverflow.png" alt="StackOverflow" width="80" height="80" align="left">
+        <img src="assets/images/github.png" alt="Github" width="80" height="80" align="middle">
+        <img src="assets/images/linkedin.png" alt="LinkedIn" width="80" height="80" align="right">
+    </div>    
 
-        
-    </div>
-
+    <footer class="footer">this is a footer...</footer>
     
 </body>
 </html>
